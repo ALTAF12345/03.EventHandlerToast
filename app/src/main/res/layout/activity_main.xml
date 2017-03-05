@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="org.sawhers.altafhussain.eventhandlertoast.MainActivity">
+    <Button
+        android:text="@string/btn_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Red"
+        android:onClick="btnClick"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="@string/btn_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_green"
+        android:layout_weight="1"
+        android:onClick="btnClick" />
+
+    <Button
+        android:text="@string/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_blue"
+        android:layout_weight="1"
+        android:onClick="btnClick" />
+
+    <Button
+        android:text="@string/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_exit"
+        android:onClick="btnClick"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
